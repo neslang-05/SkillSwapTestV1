@@ -16,10 +16,6 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please provide a password'],
   },
-  avatar: {
-    type: String,
-    default: '/placeholder.svg?height=100&width=100',
-  },
   bio: {
     type: String,
     default: '',
