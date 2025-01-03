@@ -198,15 +198,15 @@ export default function LandingPage() {
               {[
                 {
                   quote: "SkillSwap has been a game-changer for my college experience. I've learned so much from my peers!",
-                  author: "Sarah J., Computer Science Major"
+                  author: "Hanni Tham, Computer Science Student"
                 },
                 {
                   quote: "I love how easy it is to find students with complementary skills. It's like a marketplace for knowledge!",
-                  author: "Mike T., Business Administration Student"
+                  author: "RK Yaikhomba, MBA Student"
                 },
                 {
                   quote: "The platform's user-friendly interface makes skill exchanges smooth and enjoyable.",
-                  author: "Emily R., Graphic Design Enthusiast"
+                  author: "Jairaj Chingangkham, Graphic Design Enthusiast"
                 }
               ].map((testimonial, index) => (
                 <motion.div
